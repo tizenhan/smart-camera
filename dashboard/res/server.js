@@ -21,10 +21,11 @@ var SERVER_ROOT_FOLDER_PATH = '/opt/usr/globalapps/org.tizen.smart-surveillance-
 var LATEST_FRAME_FILE_PATH = '/opt/usr/home/owner/apps_rw/org.tizen.smart-surveillance-camera/shared/data/latest.jpg'
 
 function extractPath(url) {
-  var urlParts = url.split('/'),
-    i = 0,
-    l = urlParts.length,
-    result = [];
+  var urlParts = url.split('/');
+  var i = 0;
+  var l = urlParts.length;
+  var result = [];
+
   for (; i < l; ++i) {
     if (urlParts[i].length > 0) {
       result.push(urlParts[i]);
