@@ -29,12 +29,14 @@
 ## 파일 리스트  
 * inc/resource_camera.h
 * src/resource_camera.c
+* res/server.js
 
 
 
 ## 코드 기여자  
  * inc/resource_camera.h resource_camera_stop_preview 한민수	
  * src/resource_camera.c resource_camera_stop_preview 한민수
+ * res/server.js extractPath 
 
 
 ## 보드
